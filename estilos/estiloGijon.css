@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+html {
+    font-family: sans-serif;
+    background-color: #e4e9d1;
+    margin: 0px;
+    
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 10vh;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.container a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container a:hover {
+    transform: scale(1.2);
+    transition: .2s;
+}
+
+.gijon {
+    margin-left: 10px;
+    padding: 10px;
+    color: red;
+    font-size: 1.7em;
+
+}
+
+.gijon img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: inline-end;
+    padding-bottom: 0px;
+    padding-right: 15px;
+    position: absolute;
+    right: 0%;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav a:hover {
+    color: #ff0000;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 100px;
+    background-color: red;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    border-radius: 15px;
+    border: 3px solid black;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+.intro {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(https://upload.wikimedia.org/wikipedia/commons/6/61/Elogio_chillida_gijon_2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#titulo-Laboral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ), url(https://media.traveler.es/photos/61376329ea50dbd37eadeddc/master/w_1600%2Cc_limit/193549.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#titulo-Laboral h1 {
+    padding: 50px 260px;
+}
+
+p {
+    margin: 35px 50px;
+    font-size: 20px;
+}
+
+.importante::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 60%;
+    text-align: center;
+    font-size: 90%;
+    background-color: #f8f9fa;
+    color: #202122;
+    margin: 1em 0;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+
+th {
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+p a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+}
+
+p a:hover {
+    color: darkgray;
+    font-weight: bold;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    margin: 50px 0px;
+
+}
+
+.imagenes img {
+    max-width: 100%;
+    height: 100%;
+    border: 2px groove black;
+    border-radius: 5%;
+}
+
+h2 {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ff0000;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3{
+    margin: 25px;
+    font-size: 28px;
+    color: #ff3300;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#fotos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 17px;
+}
+
+#fotos img {
+    width: 100%;
+    height: 100%;
+    border: 2px dashed black;
+    overflow: hidden;
+}
+
+#fotos figure:hover {
+    transition: 0.5s;
+    justify-content: center;
+    transform: scale(1.2);
+}
+
+#hidrografia {
+    margin-top: 80px;
+}
+
+ul {
+    margin: 35px 50px;
+    font-size: 20px;
+}
+
+ul li {
+    margin: 5px;
+}
+
+footer {
+    background-color: gray;
+    opacity: 60%;
+    font-style: italic;
+    margin: 0px;
+    border-top: 3px solid black;
+    text-align: end;
+}
+
+footer p {
+    margin: 0px;
+    padding: 30px;
+
+}
+
+footer img {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+
+#museos img {
+    width: 25em;
+    height: 20em;
+    float: right;
+    margin: 3%;
+    border: 2px groove black;
+    justify-self: center;
+    border-radius: 5%;
+}
+
+.puerta {
+    height: 500px;
+}
+
+.puerta img {
+    width: 16em;
+    height: 25em;
+    float: right;
+    border-radius: 5%;
+    border: 2px groove black;
+    margin: 10px 50px;
+}
+
+.torre {
+    height: 600px;
+}
+
+.torre img {
+    margin: 10px 50px;
+    border-radius: 5%;
+    border: 2px groove black;
+    width: 25%;
+    height: 80%;
+    float: right;
+}
